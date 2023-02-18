@@ -1,8 +1,8 @@
 # Flask Application Readme
 This is a Flask application that allows users to log in and register their email address. Registered users can view the list of all registered users and delete their own user record from the database.
 
-# Preview Applications Live View:
-Link: http://sallufullstack.pythonanywhere.com/
+# Preview Application Live:
+**Link: http://sallufullstack.pythonanywhere.com/**
 
 # Requirements
 -Python 3.6 or higher
@@ -15,23 +15,23 @@ Link: http://sallufullstack.pythonanywhere.com/
 2. Open a terminal and navigate to the directory where the repository is cloned or downloaded.
 3. Create a virtual environment using the following command:
 
-## python -m venv venv
+**python -m venv venv**
 
 4. Activate the virtual environment:
 
-###### On Bash
-###### source venv/bin/activate
+**On Bash**
+**source venv/bin/activate**
 
-###### On Windows
-###### venv\Scripts\activate
+**On Windows**
+**venv\Scripts\activate**
 
 5. Install the required packages:
 
-###### pip install -r requirements.txt
+**pip install -r requirements.txt**
 
 6. Start the application:
 
-###### python app.py
+**python app.py**
 
 # Usage
 Once the application is running, open a web browser and go to http://localhost:5000/ to access the login page.
