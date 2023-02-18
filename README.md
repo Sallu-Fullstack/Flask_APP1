@@ -25,11 +25,11 @@ This is a Flask application that allows users to log in and register their email
 
 5. Install the required packages:
 
- **pip install -r requirements.txt**
+   **pip install -r requirements.txt**
 
 6. Start the application:
 
- **python app.py**
+   **python app.py**
 
 # Usage
 Once the application is running, open a web browser and go to http://localhost:5000/ to access the login page.
