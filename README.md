@@ -19,15 +19,13 @@ This is a Flask application that allows users to log in and register their email
 
 4. Activate the virtual environment:
 
-**On Bash**
-**source venv/bin/activate**
+(On Bash) **source venv/bin/activate**
 
-**On Windows**
-**venv\Scripts\activate**
+(On Windows) **venv\Scripts\activate**
 
 5. Install the required packages:
 
-**pip install -r requirements.txt**
+   **pip install -r requirements.txt**
 
 6. Start the application:
 
