@@ -15,7 +15,7 @@ Link: http://sallufullstack.pythonanywhere.com/
 2. Open a terminal and navigate to the directory where the repository is cloned or downloaded.
 3. Create a virtual environment using the following command:
 
-###### python -m venv venv
+## python -m venv venv
 
 4. Activate the virtual environment:
 
