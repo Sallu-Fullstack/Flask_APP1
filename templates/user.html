@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block content %}
+    {% with message = get_flashed_messages() %}
+    {% if message %}
+        {% for msg in message %}
+        <p>{{msg}}</p>
+        {% endfor %}
+    {% endif %}
+    {% endwith %}
+<h1>Welcome {{user}}</h1>
+{% if gender %}
+  {% if gender|lower == "male" %}
+    <img src="../static/images/man.png" alt="Male Image">
+  {% elif gender|lower == "female" %}
+    <img src="../static/images/woman-avatar.png" alt="Female Image">
+  {% else %}
+    <p>Unknown gender</p>
+  {% endif %}
+{% else %}
+  <p>Gender not available, Please enter Male or Female</p>
+{% endif %}
+
+<br>
+<form action="#" method="post">
+    <input type="email" name="email" placeholder="Enter Your Email" value="{{email if email}}"/>
+    <input type="submit" value="submit"/>
+</form>
+
+<div class="image-container">
+  <img src="../static/images/User1.png" class="right-image">
+  <img src="../static/images/SM10.png" class="left-image">
+</div>
+{% endblock %}
+
