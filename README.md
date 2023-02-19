@@ -1,4 +1,4 @@
-# Flask Application Readme
+# Login Users, View List of Users: 👤👥
 This is a Flask application that allows users to log in and register their email address. Registered users can view the list of all registered users and delete their own user record from the database.
 
 # Preview Application Live:
